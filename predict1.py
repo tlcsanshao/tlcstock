@@ -40,6 +40,7 @@ def get_sanyang_stocklist():
 
     return results
 
+
 def get_sanyang_stocklist_thread(code, name, start_date, end_date):
     try:
         # 获取三天的历史数据
@@ -234,6 +235,7 @@ def get_celue_sanyang():
     print("---选中值如下----")
     print(result)
 
+
 def get_celue_baiwushi():
     print("获取三只武士。。。")
     time1 = dt.now()
@@ -244,6 +246,7 @@ def get_celue_baiwushi():
     print("---选中值如下----")
     print(result)
 
+
 def get_celue_shizixing():
     print("获取十字星反转。。。")
     time1 = dt.now()
@@ -253,7 +256,6 @@ def get_celue_shizixing():
     print("时间差为", timediff)
     print("---选中值如下----")
     print(result)
-
 
 
 if __name__ == '__main__':
